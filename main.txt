@@ -1,0 +1,6 @@
+sudo apt install linux-headers-amd64
+
+Add "contrib", "non-free" and "non-free-firmware" components to /etc/apt/sources.list
+
+sudo apt update
+sudo apt install nvidia-driver firmware-misc-nonfree
